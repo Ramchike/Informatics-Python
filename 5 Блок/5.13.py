@@ -5,3 +5,4 @@ if sort == []:
     print("NO")
 else:
     print(min(sort))
+    
