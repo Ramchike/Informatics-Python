@@ -7,4 +7,4 @@ for i in range(2807, 8558+1):
         max_i = max(i, max_i)
         sum+= i
 
-print(min_i, sum)
+print(max_i, sum)
