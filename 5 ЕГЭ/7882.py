@@ -21,6 +21,7 @@ def foursys(N):
     return n_four[::-1]
 
 for i in range(1000):
+
     N = foursys(i)
     N = str(i % 2) + N + str(i % 3)
     R = int(N, 4)
