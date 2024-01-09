@@ -22,7 +22,6 @@ for i in range(1000):
     else:
         N += bin((i % 5) * 5)[2:]
     
-
     R = int(N, 2)
     
     if R > 256:

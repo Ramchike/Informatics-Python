@@ -2,11 +2,9 @@ max_N = 0
 
 def system3(N):
     N_3 = ""
-    
     while N:
         N_3 += str(N % 3)
-        N //= 3
-        
+        N //= 3 
     return N_3[::-1]
 
 for N in range(1, 1000):
